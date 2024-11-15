@@ -1,0 +1,82 @@
+body {
+    margin: 2%;
+    background-color: #f3e5f5; /* Soft light purple background */
+}
+
+.container {
+    width: 45%;
+    background-color: #ffffff;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+}
+
+td {
+    text-align: center;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    color: #7b1fa2; /* Dark purple header color */
+}
+
+.sub-text {
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+}
+
+.form-label {
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 14px;
+}
+
+.label-td {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1 {
+    font-weight: bold;
+    color: #9c27b0; /* Light purple for links */
+}
+
+.hover-link1:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    color: #7b1fa2; /* Dark purple on hover */
+}
+
+.login-btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #9c27b0; /* Purple button */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #7b1fa2; /* Darker purple on hover */
+}
+
+@keyframes transitionIn-Y-over {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

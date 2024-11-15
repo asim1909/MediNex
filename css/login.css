@@ -1,0 +1,80 @@
+/* Base styling */
+body {
+    margin: 7%;
+    background-color: #f3e9f9; /* Light purple background for the body */
+}
+
+/* Container styling */
+.container {
+    width: 45%;
+    background-color: #ffffff; /* White background for the container */
+    border: 1px solid #d1b3e0; /* Light purple border */
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(147, 112, 219, 0.3); /* Soft purple shadow */
+    animation: transitionIn-Y-over 0.5s;
+}
+
+/* Table cell styling */
+td {
+    text-align: center;
+}
+
+/* Header text styling */
+.header-text {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #5e35b1; /* Rich purple for the header */
+    margin-bottom: 10px;
+}
+
+/* Subtitle text styling */
+.sub-text {
+    font-size: 15px;
+    color: #8e44ad; /* Medium purple for the subtitle */
+}
+
+/* Form label styling */
+.form-label {
+    color: #4a235a; /* Dark purple for labels */
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Label table cell styling */
+.label-td {
+    text-align: left;
+    padding-top: 10px;
+}
+
+/* Hover link styling */
+.hover-link1 {
+    font-weight: bold;
+    color: #6a0dad; /* Purple for hover links */
+}
+
+.hover-link1:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    color: #8e44ad; /* Lighter purple on hover */
+}
+
+/* Login button styling */
+.login-btn {
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #8e44ad; /* Purple background for the button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #732d91; /* Darker purple on hover */
+}

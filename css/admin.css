@@ -1,0 +1,112 @@
+/* Base container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #f3e9f9; /* Light purple background for the entire page */
+}
+
+/* Menu styling */
+.menu {
+    border-right: 1.5px solid #d1b3e0; /* Soft purple for the border */
+    width: 21%;
+    height: 100vh;
+    box-shadow: 0 0px 0px 2px rgba(193, 154, 228, 0.3); /* Soft shadow in a complementary purple */
+    background-color: #e6d1f2; /* Light purple background for the menu */
+}
+
+/* Dashboard body styling */
+.dash-body {
+    width: 79%;
+    height: 100vh;
+    background-color: #faf5ff; /* Very light purple background for the main content */
+}
+
+/* Menu container styling */
+.menu-container {
+    width: 100%;
+    border-spacing: 0;
+}
+
+/* Profile title and subtitle styling */
+.profile-title {
+    font-weight: 500;
+    color: #4a235a; /* Darker purple for the title */
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.profile-subtitle {
+    font-weight: 300;
+    color: #7e57c2; /* Medium purple for the subtitle */
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+/* Logout button styling */
+.logout-btn {
+    margin-top: 30px;
+    width: 85%;
+    background-color: #8e44ad; /* Purple background */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #732d91; /* Darker purple on hover */
+}
+
+/* Profile container styling */
+.profile-container {
+    border-bottom: 1.5px solid #d1b3e0; /* Soft purple border */
+    padding-top: 18%;
+    padding-bottom: 12%;
+    text-align: center;
+}
+
+/* Main heading styling */
+.heading-main12 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #5e35b1; /* Rich purple for headings */
+}
+
+/* Subheading styling */
+.heading-sub12 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #8e44ad; /* Medium purple for subheadings */
+}
+
+/* Header search styling */
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+/* Search bar styling */
+.header-searchbar {
+    width: 75%;
+    background-color: rgba(243, 229, 245, 0.8); /* Translucent purple background */
+    border: 0.5px solid #c39bd3; /* Light purple border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* Form container styling */
+.add-doc-form-container {
+    padding: 25px;
+    margin-top: 30px;
+    background-color: #faf5ff; /* Very light purple for a clean, soft look */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}

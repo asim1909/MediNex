@@ -1,0 +1,148 @@
+body {
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e1f4; /* Soft light purple background */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.menu {
+    border-right: 1.5px solid #e3e6ea;
+    width: 24%;
+    height: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.dash-body {
+    width: 76%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.menu-container {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.profile-title {
+    font-weight: 600;
+    color: #6a1b9a; /* Purple color */
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.profile-subtitle {
+    font-weight: 400;
+    color: #9c4d97; /* Light purple color */
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    width: 85%;
+    background-color: #9c27b0; /* Purple button background */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #7b1fa2; /* Darker purple on hover */
+}
+
+.profile-container {
+    border: 1.5px solid #e5e7eb;
+    border-radius: 6px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.menu-items1 {
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #6a1b9a; /* Purple menu text */
+}
+
+.menu-td1 {
+    padding-right: 10px;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    background-color: #f3f4f6;
+}
+
+.menu-active {
+    background-color: #f9fafb;
+}
+
+.header-container {
+    margin-top: 25px;
+    margin-bottom: 5%;
+    background-image: url('../img/bg01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-spacing: 0;
+    background-color: rgba(156, 39, 176, 0.7); /* Semi-transparent purple overlay */
+}
+
+.header-items {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#header-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#header-sub-heading {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+.header-searchbar {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.header-searchbar:focus {
+    outline: none;
+    border-color: #9c27b0; /* Purple border on focus */
+}
